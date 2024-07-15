@@ -15,26 +15,26 @@ public class Traductor {
 
     Map<String, String> traductor = new HashMap<>();
 
-    traductor.put("Casa", "House");
-    traductor.put("Gato", "Cat");
-    traductor.put("Perro", "Dog");
-    traductor.put("Libro", "Book");
-    traductor.put("Manzana", "Apple");
-    traductor.put("Sol", "Sun");
-    traductor.put("Luna", "Moon");
-    traductor.put("Estrella", "Star");
-    traductor.put("Agua", "Water");
-    traductor.put("Fuego", "Fire");
-    traductor.put("Tierra", "Earth");
-    traductor.put("Viento", "Wind");
-    traductor.put("Cielo", "Sky");
-    traductor.put("Arbol", "Tree");
-    traductor.put("Flor", "Flower");
-    traductor.put("Niño", "Child");
-    traductor.put("Amigo", "Friend");
-    traductor.put("Escuela", "School");
-    traductor.put("Trabajo", "Job");
-    traductor.put("Familia", "Family");
+    traductor.put("Mesa", "Table");
+    traductor.put("Pelota", "Ball");
+    traductor.put("Canción", "Song");
+    traductor.put("Cine", "Cinema");
+    traductor.put("Bosque", "Forest");
+    traductor.put("Oro", "Gold");
+    traductor.put("Sueño", "Dream");
+    traductor.put("Viaje", "Journey");
+    traductor.put("Río", "River");
+    traductor.put("Calor", "Heat");
+    traductor.put("Frío", "Cold");
+    traductor.put("Reloj", "Clock");
+    traductor.put("Teléfono", "Telephone");
+    traductor.put("Camino", "Path");
+    traductor.put("Guitarra", "Guitar");
+    traductor.put("Nube", "Cloud");
+    traductor.put("Diente", "Tooth");
+    traductor.put("Leche", "Milk");
+    traductor.put("Carro", "Car");
+    traductor.put("Avión", "Airplane");
 
     Random aleatorio = new Random();
     ArrayList<String> palabras = new ArrayList<>(traductor.keySet());
